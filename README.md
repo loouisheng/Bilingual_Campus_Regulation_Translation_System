@@ -1,11 +1,5 @@
 # Bilingual Campus Regulation Translation System 
 
-**A Note on This Repository**
-
-Please note that this project was developed as part of a formal, collaborative academic program. Due to the nature of this partnership, the full source code is not publicly available. This repository serves as a professional portfolio piece to document and showcase the project's conceptual architecture, the AI workflow, and my role in its design.
-
-## Summary
-This project is an end-to-end "Bilingual Campus Regulation Translation System" for National Kaohsiung University of Science and Technology. I engineered a sophisticated pipeline integrating RAG and Auto Chain-of-Thought prompting technique to ensure legal precision and stylistic consistency. By implementing a Human-in-the-Loop feedback mechanism, the system continuously optimizes its translation accuracy, effectively reducing legal risks and promoting campus social justice.
 
 ## Context & Objective
 
@@ -14,19 +8,6 @@ This project is an end-to-end "Bilingual Campus Regulation Translation System" f
 * **Problem:** Campus regulations are fundamental to protecting the rights of students and staff. However, traditional translations often suffer from inconsistent quality or slow updates, which can lead to international members being harmed by misunderstandings or conflicts.
 
 * **Objective:** To create a system that combines advanced AI technologies with human-expert calibration to ensure the accuracy, professionalism, and timeliness of regulation translations, thereby improving convenience and protecting fundamental rights.
-
-## My Role
-
-As the primary developer on this project, I was responsible for the end-to-end technical implementation of this prototype. My key contributions include:
-
-* **Prototype Development:** Built the functional proof-of-concept (PoC) from the ground up, translating the conceptual architecture into working code.
-
-* **System Implementation:** Wrote the Python scripts for the complete data processing pipeline, managing document input, text processing, and API integrations.
-
-* **AI Workflow Engineering:** Implemented the core AI logic, orchestrating the multi-step process for both the RAG (Retrieval-Augmented Generation) and Auto-CoT (Automatic Chain-of-Thoughts) components.
-
-* **Testing & Validation:** Conducted tests on the system's output, making sure the system process and output correctly worked.
-
 
 ## System Architecture & Flow
 
@@ -61,6 +42,18 @@ The core highlight of this system is the combination of two advanced AI techniqu
 
 * **Output (Final Translation):** The system outputs a verified, high-quality English regulation.
 
+## My Role
+
+As the primary developer on this project, I was responsible for the end-to-end technical implementation of this prototype. My key contributions include:
+
+* **Prototype Development:** Built the functional proof-of-concept (PoC) from the ground up, translating the conceptual architecture into working code.
+
+* **System Implementation:** Wrote the Python scripts for the complete data processing pipeline, managing document input, text processing, and API integrations.
+
+* **AI Workflow Engineering:** Implemented the core AI logic, orchestrating the multi-step process for both the RAG (Retrieval-Augmented Generation) and Auto-CoT (Automatic Chain-of-Thoughts) components.
+
+* **Testing & Validation:** Conducted tests on the system's output, making sure the system process and output correctly worked.
+
 ## Key Highlights
 
 * **Humanity AI Driven:** The core goal is "protecting fundamental rights" and "promoting social equity," not just technology for its own sake.
@@ -72,10 +65,14 @@ The core highlight of this system is the combination of two advanced AI techniqu
 
 * **Expert Feedback Loop (HITL):** The system is designed with a clear optimization path, allowing it to continuously iterate and improve based on expert knowledge, ensuring long-term reliability.
 
-## Technology Stack (Conceptual)
+## Technology Stack
 
 * **Core Models:** LLMs (Ollama, GPT, Gemini)
 
 * **Core Techniques:** RAG, Auto-CoT, Prompt Engineering
 
 * **Database (Inferred):** Vector Database
+
+## A Note on This Repository
+
+Please note that this project was developed as part of a formal, collaborative academic program. Due to the nature of this partnership, the full source code is not publicly available. This repository serves as a professional portfolio piece to document and showcase the project's conceptual architecture, the AI workflow, and my role in its design.
